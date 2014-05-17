@@ -60,8 +60,14 @@ public class BackdoorScanner {
             }    
             if(isBackdoor){
                 System.out.println("Directory: " + pathFull);
-                System.out.println(fileName + " is backdoor");
+                System.out.println(fileName + " is a backdoor");
+            }else{
+                System.out.println("Directory: " + pathFull);
+                System.out.println(fileName + " is not a backdoor");  
             }
+        }else{
+                System.out.println("Directory: " + pathFull);
+                System.out.println(fileName + " is not php file"); 
         }
     }
 }
