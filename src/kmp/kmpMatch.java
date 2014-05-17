@@ -9,6 +9,7 @@ package kmp;
 /**
  *
  * @author adwisatya
+ * Taken from Dr. Andrew Davison, "Pattern Matching", WiG Lab, CoE,2006-2007.
  */
 public class kmpMatch {
 public static int kmpMatch(String text, String pattern) 
